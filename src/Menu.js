@@ -1,13 +1,15 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useAuth } from "./auth";
-import "./css/menu.css"
+import "./css/menu.css";
+import logo from "./img/react-router.svg";
 
 function Menu() {
   const auth = useAuth();
 
   return (
     <nav>
+      <img src={logo} alt="Logo" className="imagen-fija"/>
       <ul>
         {routes.map((route) => {
 

@@ -19,3 +19,12 @@ nav a {
   display: block;
   padding: 0.5rem;
 }
+
+.imagen-fija {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 10px;
+}
