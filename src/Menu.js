@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useAuth } from "./auth";
+import "./css/menu.css"
 
 function Menu() {
   const auth = useAuth();
@@ -18,7 +19,7 @@ function Menu() {
             <li key={route.to}>
               <NavLink
                 style={({ isActive }) => ({
-                  color: isActive ? "red" : "blue",
+                  color: isActive ? "#007979" : "#1E1E1F",
                 })}
                 to={route.to}
               >
