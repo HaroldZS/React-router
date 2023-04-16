@@ -15,7 +15,7 @@ blogdata.push({
   title: "¿Qué es Angular?",
   slug: "que-es-angular",
   content: "Angular es el mejor framework de Javascript",
-  author: "Haroldzs",
+  author: "JuanDC",
 });
 
 export { blogdata };
